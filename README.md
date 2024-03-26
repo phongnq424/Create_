@@ -1,1 +1,30 @@
-# Create_
+<!DOCTYPE html>
+<html>
+<font color="red">
+<head>
+<meta charshet="utf-8" />
+<title>Phong's profile</title>
+<link rel="stylesheet" href="23521169.css">
+</head>
+<body>
+<font color="red">
+<font size="+3">
+<h1> <center> THÔNG TIN CÁ NHÂN <center> </h1>
+</font>
+<font color="black">
+<font size="+1">
+<div id="main-content">
+<div id = "content">
+<p> Họ và tên : Nguyễn Quý Phong </p> 
+<p>Ngày sinh : 05/08/2005 </p>
+<p>Cung hoàng đạo : Sư Tử </p>
+<p>Sinh viên trường Đại học Công Nghệ Thông Tin </p>
+<p>Sở thích : nghe nhạc, nói chuyện <p>
+</div> 
+<div id = "sidebar">
+<img src="https://bestplus.vn/Userfiles/Upload/images/Download/2017/1/3/7b5c72a3733b4207a9b989e34a22ab33.jpg" width=50% height=70%/>
+</div>
+</div>
+</font>
+</body>
+</html>
