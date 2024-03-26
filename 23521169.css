@@ -1,0 +1,9 @@
+#main-content {
+    display : flex;
+}
+#content {
+    flex-basis : 30%;
+}
+#sidebar {
+    flex-basis : 70%;
+}
