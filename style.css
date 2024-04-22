@@ -1,9 +1,40 @@
+h1 {
+    font-size: 50px; /* Đặt kích thước chữ cho tiêu đề */
+    text-align: center; /* Căn giữa tiêu đề */
+    text-shadow: 2px 2px 2px #000;
+}
+
+p {
+    margin-bottom: 10px; /* Khoảng cách giữa các đoạn văn */
+}
 #main-content {
-    display : flex;
+    display: flex;
+    justify-content: space-between; /* Phân chia khoảng cách ngang đều giữa #content và #sidebar */
+    align-items: center; /* Căn giữa dọc các phần tử trong #main-content */
 }
+
 #content {
-    flex-basis : 30%;
+    font-size: 20px; /* Đặt kích thước chữ */
+    color: #333; /* Đặt màu chữ */
+    text-align: left; /* Căn lề văn bản */
+    flex-basis: 60%; /* Phần trăm chiều rộng của #content */
+    padding: 20px; /* Khoảng cách giữa lề và nội dung */
+    background-color: #f9f9f9; /* Màu nền */
+    border: 2px solid #000; /* Tạo viền trên với độ rộng 2px và màu đen */
+    /*border-bottom: 2px solid #000; /* Tạo viền dưới với độ rộng 2px và màu đen 
+    //border-left: 2px solid #000; / Không có viền bên trái /
+    border-right: 2px solid #000; / Không có viền bên phải */
 }
+
 #sidebar {
-    flex-basis : 70%;
+    flex-basis: 40%; /* Phần trăm chiều rộng của #sidebar */
+    padding: 0;
+}
+
+img {
+    display: block; /* Loại bỏ khoảng trắng dưới ảnh */
+    max-width: 100%; /* Đảm bảo ảnh không bị vượt quá kích thước của container */
+    height: auto; /* Đảm bảo tỷ lệ chiều cao đúng */
+    border-radius: 5px; /* Bo tròn các góc của ảnh */
+    margin: 0;
 }
