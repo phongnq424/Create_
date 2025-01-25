@@ -1,4 +1,4 @@
-const text = "WELCOME TO PHONG PROFILE";
+const text = "WELCOME TO PN NGUYEN :))";
 const header = document.querySelector('.header');
 
 let index = 0;
