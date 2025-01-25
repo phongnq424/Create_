@@ -34,7 +34,53 @@
     from, to { border-color: transparent; }
     50% { border-color: white; }
 }
+@media (max-width: 768px) {
+    .header {
+        font-size: 50px; /* Giảm kích thước font cho màn hình nhỏ */
+        padding: 10px 0; /* Điều chỉnh padding */
+    }
 
+    .card-container {
+        gap: 50px; /* Giảm khoảng cách giữa các card */
+    }
+
+    .card {
+        width: 200px; /* Giảm chiều rộng của card */
+        height: 300px; /* Giảm chiều cao của card */
+    }
+
+    .card__title {
+        font-size: 18px; /* Giảm kích thước font cho tiêu đề */
+    }
+}
+
+/* Media query cho tablet */
+@media (max-width: 1024px) {
+    .header {
+        font-size: 70px; /* Giảm kích thước font cho màn hình tablet */
+    }
+
+    .card-container {
+        gap: 70px; /* Giảm khoảng cách giữa các card */
+    }
+
+    .card {
+        width: 220px; /* Giảm chiều rộng card cho tablet */
+        height: 320px; /* Giảm chiều cao card cho tablet */
+    }
+}
+
+/* Media query cho desktop */
+@media (min-width: 1025px) {
+    .header {
+        font-size: 80px; /* Kích thước font lớn cho desktop */
+    }
+
+    .card {
+        width: 250px; /* Kích thước card cho desktop */
+        height: 350px; /* Kích thước card cho desktop */
+    }
+}
 
 html, body {
     height: 100%;
