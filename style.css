@@ -34,7 +34,7 @@
     from, to { border-color: transparent; }
     50% { border-color: white; }
 }
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     .header {
         font-size: 50px; /* Giảm kích thước font cho màn hình nhỏ */
         padding: 10px 0; /* Điều chỉnh padding */
@@ -50,7 +50,7 @@
     }
 
     .card__title {
-        font-size: 18px; /* Giảm kích thước font cho tiêu đề */
+        font-size: 15px; /* Giảm kích thước font cho tiêu đề */
     }
 }
 
